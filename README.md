@@ -7,3 +7,5 @@ source env/bin/activate
 
 pip install flask uwsgi
 pip list 
+
+pip freeze > requirements.txt
